@@ -1,0 +1,54 @@
+{
+  "name": "mudey-crud",
+  "version": "1.0.3",
+  "description": "It’s a mongoose model, REST controller and Express router code generator for Express.js 4.0.17 application",
+  "author": "Espero-Soft Informatiques <contact@espero-soft.com>",
+  "keywords": [
+      "mongodb",
+      "mongoose",
+      "express",
+      "generator",
+      "rest",
+      "restfull",
+      "api",
+      "app",
+      "web",
+      "akpoli",
+      "espero",
+      "espero-soft",
+      "espero-soft",
+      "mudey"
+  ],
+  "main": "bin/www",
+  "scripts": {
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "lint": "jshint ./**/*.js ./bin/mudey-crud",
+      "cs": "jscs ./**/*.js ./bin/mudey-crud"
+  },
+  "engines": {
+      "node": ">= 0.12.0"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+      "mudey-crud": "./bin/www"
+  },
+  "dependencies": {
+      "async": "^0.9.0",
+      "commander": "^2.5.0"
+  },
+  "devDependencies": {
+      "jscs": "^2.5.1",
+      "jshint": "^2.8.0",
+      "mkdirp": "^0.5.0",
+      "mocha": "^2.0.1",
+      "nexpect": "^0.4.2",
+      "rimraf": "^2.2.8"
+  },
+  "files": [
+      "LICENSE",
+      "bin/",
+      "templates/",
+      "lib/"
+  ]
+}
