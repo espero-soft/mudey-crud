@@ -1,6 +1,6 @@
 {
   "name": "mudey-crud",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "It’s a mongoose model, REST controller and Express router code generator for Express.js 4.0.17 application",
   "author": "Espero-Soft Informatiques <contact@espero-soft.com>",
   "keywords": [

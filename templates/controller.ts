@@ -4,7 +4,7 @@
  */
 import { Controller, Param, Body, Get, Post, Put, Delete, Req, Res, UseBefore  } from 'routing-controllers';
 import { Request, Response } from 'express';
-import {Name} from '../models/{Name}.ts';
+import {Name} from '../models/{Name}';
 import { sendSuccessResponse, sendErrorResponse } from '../helpers/responseHelper';
 import { getPaginationUrls } from '../helpers/paginationHelper';
 import { checkRole, verifyToken } from '../middleware/authMiddleware';

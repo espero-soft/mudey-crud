@@ -7,11 +7,11 @@
 import mongoose, { Schema, Document, Model } from 'mongoose';
 
 // Interface for Contact
-interface I{Name} extends Document {fieldTypes}
+export interface I{Name} extends Document {fieldTypes}
 
 const {schemaName} = new Schema({fields});
 
 // Create and export Contact model
-const {Name}: Model<I{Name}> = Model<I{Name}>('{Name}', {schemaName});
+const {Name}: Model<I{Name}> = mongoose.model<I{Name}>('{Name}', {schemaName});
 
 export default {Name};
